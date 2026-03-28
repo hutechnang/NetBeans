@@ -1,0 +1,4 @@
+https://www.google.com -> 158 lan
+https://www.github.com -> 1 lan
+https://www.stackoverflow.com -> 112 lan
+https://www.wikipedia.org -> 5 lan

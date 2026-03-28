@@ -1,0 +1,194 @@
+================================================================================
+BAO CAO SO SANH HIEU SUAT DOC/GHI FILE LON
+CO VA KHONG SU DUNG VUNG DEM (BUFFER)
+================================================================================
+Sinh vien: Dinh Ngoc Nang
+MSSV: 2280602045
+Lop: 22DTHG3
+
+================================================================================
+1. MO DAU
+================================================================================
+
+Bai tap nay so sanh hieu suat doc/ghi file lon (>100MB) giua hai phuong phap:
+- Phuong phap 1: Su dung FileInputStream/FileOutputStream (KHONG co buffer)
+- Phuong phap 2: Su dung BufferedInputStream/BufferedOutputStream (CO buffer)
+
+Muc dich: Danh gia su khac biet ve thoi gian thuc hien va hieu suat giua hai
+phuong phap de rut ra ket luan ve viec su dung buffer trong I/O operations.
+
+================================================================================
+2. PHUONG PHAP 1: KHONG SU DUNG BUFFER
+================================================================================
+
+2.1. Cach thuc hien:
+   - Su dung FileInputStream de doc file
+   - Su dung FileOutputStream de ghi file
+   - Doc/ghi tung byte mot (read() tra ve int, write(int) ghi tung byte)
+
+2.2. Cach hoat dong:
+   - Moi lan doc/ghi la mot lan goi he thong (system call)
+   - Khong co vung dem trung gian
+   - Moi byte duoc doc/ghi truc tiep tu/vao file
+
+2.3. Uu diem:
+   + Code don gian, de hieu
+   + Khong ton them bo nho cho buffer
+   + Phu hop cho file nho hoac doc/ghi it
+
+2.4. Nhuoc diem:
+   - Rat cham voi file lon vi:
+     * Moi byte can mot lan goi he thong
+     * So lan goi he thong rat lon (100MB = 100,000,000 lan goi)
+     * Goi he thong la thao tac ton kem thoi gian
+   - CPU phai doi I/O nhieu lan
+   - Khong hieu qua ve mat hieu suat
+
+2.5. Ket qua du kien:
+   - Thoi gian thuc hien: Rat lau (co the hang phut voi file 100MB)
+   - Toc do: Rat cham (thuong < 1 MB/s)
+   - CPU usage: Thap (phai doi I/O nhieu)
+
+================================================================================
+3. PHUONG PHAP 2: CO SU DUNG BUFFER
+================================================================================
+
+3.1. Cach thuc hien:
+   - Su dung BufferedInputStream boc FileInputStream
+   - Su dung BufferedOutputStream boc FileOutputStream
+   - Doc/ghi theo mang byte (read(byte[]) va write(byte[], int, int))
+
+3.2. Cach hoat dong:
+   - BufferedInputStream doc nhieu byte mot luc tu file vao buffer
+   - Khi can doc, lay tu buffer truoc, neu het thi doc them tu file
+   - BufferedOutputStream ghi vao buffer truoc
+   - Khi buffer day hoac flush(), moi ghi vao file
+   - Giam so lan goi he thong di rat nhieu
+
+3.3. Uu diem:
+   + Rat nhanh voi file lon vi:
+     * Giam so lan goi he thong (100MB / 8KB = ~12,500 lan thay vi 100,000,000 lan)
+     * Doc/ghi theo khoi lon hon
+     * Buffer giup toi uu I/O operations
+   + Hieu suat cao hon nhieu lan
+   + Phu hop cho file lon
+   + CPU usage tot hon
+
+3.4. Nhuoc diem:
+   - Ton them bo nho cho buffer (thuong 8KB - 64KB, khong dang ke)
+   - Code phuc tap hon mot chut
+   - Can chu y flush() khi can ghi ngay
+
+3.5. Ket qua du kien:
+   - Thoi gian thuc hien: Nhanh hon nhieu (co the nhanh hon 10-100 lan)
+   - Toc do: Cao (co the dat 50-200 MB/s tuy he thong)
+   - CPU usage: Tot hon (it phai doi I/O)
+
+================================================================================
+4. SO SANH CHI TIET
+================================================================================
+
+4.1. Ve mat so lan goi he thong:
+   - Khong buffer: 100,000,000 lan (voi file 100MB, doc tung byte)
+   - Co buffer: ~12,500 lan (voi buffer 8KB)
+   - Giam: ~8,000 lan (99.9875%)
+
+4.2. Ve mat thoi gian:
+   - Khong buffer: Rat lau (co the 1-5 phut hoac hon)
+   - Co buffer: Nhanh (co the 1-10 giay)
+   - Cai thien: 10-100 lan hoac hon
+
+4.3. Ve mat bo nho:
+   - Khong buffer: Khong ton them bo nho
+   - Co buffer: Ton them ~8-64 KB (rat nho, khong dang ke)
+
+4.4. Ve mat code:
+   - Khong buffer: Don gian hon
+   - Co buffer: Phuc tap hon mot chut (can boc stream)
+
+================================================================================
+5. NGUYEN LY HOAT DONG CUA BUFFER
+================================================================================
+
+5.1. BufferedInputStream:
+   - Doc truoc nhieu byte tu file vao buffer trong bo nho
+   - Khi chuong trinh goi read(), lay tu buffer
+   - Neu buffer het, tu dong doc them tu file
+   - Giam so lan truy cap dia cung
+
+5.2. BufferedOutputStream:
+   - Ghi vao buffer trong bo nho truoc
+   - Khi buffer day hoac goi flush(), moi ghi vao file
+   - Giam so lan ghi vao dia cung
+   - Toi uu viec ghi theo khoi
+
+5.3. Kich thuoc buffer:
+   - Mac dinh: 8KB (8192 bytes)
+   - Co the tu dinh: new BufferedInputStream(fis, bufferSize)
+   - Buffer lon hon: Nhanh hon nhung ton bo nho hon
+   - Buffer nho hon: Tiet kiem bo nho nhung cham hon
+
+================================================================================
+6. KET QUA THUC NGHIEM (DU KIEN)
+================================================================================
+
+6.1. File 100MB:
+   - Khong buffer: ~60-300 giay (1-5 phut)
+   - Co buffer: ~1-10 giay
+   - Ti le nhanh: 10-100 lan
+
+6.2. File 1GB:
+   - Khong buffer: ~10-50 phut (rat cham)
+   - Co buffer: ~10-100 giay
+   - Ti le nhanh: 50-300 lan
+
+6.3. Nhan xet:
+   - File cang lon, su khac biet cang ro rang
+   - Buffer cang lon, hieu suat cang cao (nhung co gioi han)
+
+================================================================================
+7. KET LUAN
+================================================================================
+
+7.1. Khi nao nen dung KHONG buffer:
+   - File rat nho (< 1MB)
+   - Can doc/ghi it, khong can hieu suat cao
+   - Bo nho rat han che
+   - Can doc/ghi truc tiep, khong muon delay
+
+7.2. Khi nao nen dung CO buffer:
+   - File lon (> 1MB)
+   - Can hieu suat cao
+   - Doc/ghi nhieu
+   - Muon toi uu I/O operations
+
+7.3. Khuyen nghi:
+   - VOI FILE LON: LUON su dung buffer!
+   - Buffer chi ton them vai KB bo nho nhung cai thien hieu suat rat nhieu
+   - Su khac biet ve hieu suat la rat lon (10-100 lan hoac hon)
+   - Trong Java, BufferedInputStream/BufferedOutputStream la best practice
+
+7.4. Nhan xet chung:
+   - Buffer la mot ky thuat toi uu quan trong trong I/O
+   - Su dung buffer la bat buoc khi lam viec voi file lon
+   - Chi phi (bo nho) rat nho nhung loi ich rat lon
+   - Day la mot trong nhung bai hoc quan trong ve I/O optimization
+
+================================================================================
+8. BAI HOC RUT RA
+================================================================================
+
+1. Buffer la mot ky thuat toi uu I/O rat hieu qua
+2. Giam so lan goi he thong la chinh yeu to quyet dinh hieu suat
+3. Voi file lon, LUON su dung buffer
+4. Chi phi bo nho cho buffer la rat nho so voi loi ich mang lai
+5. Hieu suat co the cai thien 10-100 lan hoac hon
+6. Trong Java, BufferedInputStream/BufferedOutputStream la standard practice
+
+================================================================================
+NGUOI THUC HIEN
+Dinh Ngoc Nang - 2280602045 - 22DTHG3
+================================================================================
+
+
+

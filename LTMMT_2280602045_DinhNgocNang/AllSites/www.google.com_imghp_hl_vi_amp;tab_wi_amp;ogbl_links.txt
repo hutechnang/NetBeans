@@ -1,0 +1,10 @@
+URL: https://www.google.com/imghp?hl=vi&amp;tab=wi&amp;ogbl
+Tong so links: 7
+----------------------------------------
+https://www.google.com.vn/intl/vi/about/products?tab=ih
+https://accounts.google.com/ServiceLogin?hl=vi&amp;passive=true&amp;continue=https://www.google.com/imghp%3Fhl%3Dvi%26amp%3Btab%3Dwi%26amp%3Bogbl&amp;ec=GAZAAg
+https://www.google.com/webhp?hl=vi&amp;tab=ii
+https://www.google.com/advanced_image_search?hl=vi&amp;authuser=0
+https://www.google.com/intl/vi/ads/
+https://www.google.com/services/
+https://www.google.com/intl/vi/about.html

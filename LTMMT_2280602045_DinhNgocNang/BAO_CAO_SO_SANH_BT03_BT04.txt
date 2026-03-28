@@ -1,0 +1,109 @@
+================================================================================
+BAO CAO SO SANH BAI02_BT03 VA BAI02_BT04
+================================================================================
+Sinh vien: Dinh Ngoc Nang
+MSSV: 2280602045
+Lop: 22DTHG3
+
+================================================================================
+1. PHAN TICH BAI02_BT03 (SU DUNG LUONG KY TU)
+================================================================================
+
+1.1. Luong su dung:
+   - FileReader: Doc du lieu tu file
+   - FileWriter: Ghi du lieu vao file
+   - Day la luong ky tu co so (Character Stream)
+
+1.2. Cach thuc hien:
+   - Ghi du lieu: Su dung FileWriter.write(String) de ghi truc tiep chuoi ky tu
+   - Doc du lieu: Su dung FileReader.read() de doc tung ky tu (tra ve int)
+   - Chuyen doi: Chuyen int thanh char bang cach ep kieu (char) charData
+
+1.3. Uu diem:
+   + Doc/ghi truc tiep ky tu, khong can chuyen doi
+   + Tu dong xu ly encoding (UTF-8, ASCII, ...)
+   + Phu hop cho viec xu ly van ban
+   + Code don gian, de doc hon
+
+1.4. Nhuoc diem:
+   - Chi phu hop cho du lieu van ban
+   - Khong phu hop cho du lieu nhi phan (binary data)
+   - Hieu nang co the cham hon luong byte khi xu ly file lon
+
+================================================================================
+2. PHAN TICH BAI02_BT04 (SU DUNG LUONG BYTE)
+================================================================================
+
+2.1. Luong su dung:
+   - FileInputStream: Doc du lieu tu file
+   - FileOutputStream: Ghi du lieu vao file
+   - Day la luong byte co so (Byte Stream)
+
+2.2. Cach thuc hien:
+   - Ghi du lieu: Su dung FileOutputStream.write(byte[]) de ghi mang byte
+   - Chuyen doi: Phai chuyen String thanh byte[] bang getBytes() truoc khi ghi
+   - Doc du lieu: Su dung FileInputStream.read() de doc tung byte (tra ve int)
+   - Chuyen doi: Chuyen int thanh char bang cach ep kieu (char) byteData
+
+2.3. Uu diem:
+   + Co the xu ly ca du lieu van ban va nhi phan
+   + Linh hoat hon, co the doc/ghi bat ky loai file nao
+   + Hieu nang tot cho file nhi phan
+   + Co the dieu khien chinh xac encoding bang cach chi dinh charset
+
+2.4. Nhuoc diem:
+   - Phai chuyen doi String <-> byte[] thu cong
+   - Code phuc tap hon mot chut
+   - Can chu y den encoding khi chuyen doi (co the gay loi voi ky tu dac biet)
+
+================================================================================
+3. SO SANH CHI TIET
+================================================================================
+
+3.1. Ve mat hieu nang:
+   - BT03 (luong ky tu): Tu dong xu ly encoding, phu hop van ban
+   - BT04 (luong byte): Co the dieu khien encoding, phu hop ca van ban va nhi phan
+
+3.2. Ve mat code:
+   - BT03: Code don gian hon, it buoc chuyen doi
+   - BT04: Code phuc tap hon, nhieu buoc chuyen doi (String -> byte[] -> String)
+
+3.3. Ve mat su dung:
+   - BT03: Chi phu hop cho du lieu van ban
+   - BT04: Phu hop cho ca van ban va nhi phan
+
+3.4. Ve mat encoding:
+   - BT03: Tu dong xu ly encoding theo mac dinh cua he thong
+   - BT04: Co the chi dinh encoding khi chuyen doi (getBytes("UTF-8"))
+
+================================================================================
+4. KET LUAN
+================================================================================
+
+4.1. Khi nao nen dung luong ky tu (FileReader/FileWriter):
+   - Khi chi xu ly du lieu van ban (text files)
+   - Khi muon code don gian, de doc
+   - Khi khong can dieu khien chi tiet ve encoding
+
+4.2. Khi nao nen dung luong byte (FileInputStream/FileOutputStream):
+   - Khi can xu ly du lieu nhi phan (images, videos, executables, ...)
+   - Khi can dieu khien chinh xac encoding
+   - Khi can doc/ghi bat ky loai file nao
+
+4.3. Trong truong hop bai tap nay:
+   - Ca hai phuong phap deu phu hop vi du lieu la van ban (CSV)
+   - BT03 (luong ky tu) phu hop hon vi don gian va tu dong xu ly encoding
+   - BT04 (luong byte) van hoat dong tot nhung can them buoc chuyen doi
+
+4.4. Nhan xet chung:
+   - Luong ky tu: Tu nhien hon cho van ban, code don gian
+   - Luong byte: Linh hoat hon, co the xu ly nhieu loai du lieu
+   - Lua chon phu thuoc vao muc dich su dung cu the
+
+================================================================================
+NGUOI THUC HIEN
+Dinh Ngoc Nang - 2280602045 - 22DTHG3
+================================================================================
+
+
+

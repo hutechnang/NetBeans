@@ -1,0 +1,14 @@
+URL: https://www.google.com/advanced_search?hl=vi&amp;authuser=0
+Tong so links: 11
+----------------------------------------
+https://www.google.com/webhp?tab=ww
+https://www.google.com.vn/intl/vi/about/products?tab=wh
+https://accounts.google.com/ServiceLogin?hl=vi&amp;passive=true&amp;continue=https://www.google.com/advanced_search%3Fhl%3Dvi%26amp%3Bauthuser%3D0&amp;ec=GAZAAQ
+https://support.google.com/websearch?p=ws_images_usagerights&amp;hl=vi
+https://support.google.com/websearch?p=adv_pages_similar&amp;hl=vi
+https://support.google.com/websearch?p=adv_pages_visited&amp;hl=vi
+https://support.google.com/websearch?p=adv_operators&amp;hl=vi
+https://www.google.com/preferences?hl=vi
+https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dvi%26fg%3D1&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwiv__D6ioqRAxUjbPUHHeFzDNUQ8KwCCAI&amp;usg=AOvVaw16s3dP-UTzl4jmscQYjgZ-
+https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dvi%26fg%3D1&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwiv__D6ioqRAxUjbPUHHeFzDNUQ8awCCAM&amp;usg=AOvVaw1i3A_0cg7lN1WYeq6i59Pi
+https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dvi%26fg%3D1&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwiv__D6ioqRAxUjbPUHHeFzDNUQ8qwCCAQ&amp;usg=AOvVaw3Y9-gGaJjyJ8sZxB_ldM9Q

@@ -1,0 +1,9 @@
+URL: https://mail.google.com/mail/?tab=wm&amp;ogbl
+Tong so links: 6
+----------------------------------------
+https://mail.google.com/signin/usernamerecovery?continue=https://mail.google.com/mail/u/0/?tab%3Dwm%26amp;ogbl&amp;dsh=S-819266794:1763963187372804&amp;emr=1&amp;flowEntry=ServiceLogin&amp;flowName=WebLiteSignIn&amp;followup=https://mail.google.com/mail/u/0/?tab%3Dwm%26amp;ogbl&amp;ifkv=ARESoU2nuB2rmsLifD6HGhTwaKt-qr_3btU-5A4AHO9XN1AJApkswBdvgHSeYZHINHxVTmhX4d11Sg&amp;osid=1&amp;service=mail
+https://support.google.com/accounts?p=signin_privatebrowsing&amp;hl=en-US
+https://mail.google.com/lifecycle/flows/signup?continue=https://mail.google.com/mail/u/0/?tab%3Dwm%26amp;ogbl&amp;dsh=S-819266794:1763963187372804&amp;emr=1&amp;flowEntry=SignUp&amp;flowName=GlifWebSignIn&amp;followup=https://mail.google.com/mail/u/0/?tab%3Dwm%26amp;ogbl&amp;ifkv=ARESoU2nuB2rmsLifD6HGhTwaKt-qr_3btU-5A4AHO9XN1AJApkswBdvgHSeYZHINHxVTmhX4d11Sg&amp;osid=1&amp;service=mail
+https://support.google.com/accounts?hl=en-US&amp;p=account_iph
+https://accounts.google.com/TOS?loc=VN&amp;hl=en-US&amp;privacy=true
+https://accounts.google.com/TOS?loc=VN&amp;hl=en-US

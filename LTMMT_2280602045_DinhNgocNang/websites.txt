@@ -1,0 +1,6 @@
+https://www.google.com | google
+https://www.github.com | google
+https://www.stackoverflow.com | google
+https://www.wikipedia.org | google
+https://www.microsoft.com | google
+

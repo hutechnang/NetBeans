@@ -1,0 +1,12 @@
+=== KET QUA KIEM TRA URL ===
+URL                                                | Dia chi IP           | So ky tu        | Thoi gian xu ly
+--------------------------------------------------------------------------------------------------------
+https://www.google.com                             | 142.250.198.36       | 273779          | 10009 ms       
+https://www.github.com                             | 20.205.243.166       | 557479          | 12902 ms       
+https://www.stackoverflow.com                      | 198.252.206.1        | 237064          | 6162 ms        
+https://www.wikipedia.org                          | 103.102.166.224      | 111437          | 6715 ms        
+
+=== TONG KET ===
+Thanh cong: 4
+Loi: 0
+Tong cong: 4

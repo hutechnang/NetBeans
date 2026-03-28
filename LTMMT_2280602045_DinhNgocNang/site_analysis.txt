@@ -1,0 +1,14 @@
+=== KET QUA PHAN TICH TRANG WEB ===
+URL                                                | Tu khoa                        | So lan xuat hien | Thoi gian tai  
+------------------------------------------------------------------------------------------------------------------------
+https://www.google.com                             | google                         | 158             | 1170 ms        
+https://www.github.com                             | google                         | 1               | 681 ms         
+https://www.stackoverflow.com                      | google                         | 123             | 2089 ms        
+https://www.wikipedia.org                          | google                         | 5               | 316 ms         
+https://www.microsoft.com                          | google                         | 0               | 146 ms         
+
+=== TONG KET ===
+Thanh cong: 5
+Loi: 0
+Important sites (> 5 lan): 2
+Tong cong: 5

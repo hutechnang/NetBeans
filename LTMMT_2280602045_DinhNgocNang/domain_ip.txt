@@ -1,0 +1,5 @@
+google.com -> 142.250.198.46
+facebook.com -> 57.144.14.1
+github.com -> 20.205.243.166
+stackoverflow.com -> 198.252.206.1
+microsoft.com -> 13.107.213.59
