@@ -1,0 +1,953 @@
+[2025-12-26 07:43:00] INFO  NIDS Threshold TCP Server started on port 9090
+[2025-12-26 07:43:00] INFO  UDP Log Collector started on port 5514 (format: ip|event|detail  OR raw text)
+[2025-12-26 07:43:01] INFO  Config: port=9090, windowMs=10000, staticThreshold=20, blockBaseMs=30000, maxBlockMs=600000, adaptiveEnabled=false, adaptiveFactor=3, refreshMs=1000, collectorEnabled=true, collectorPort=5514, maxEvents=2000
+[2025-12-26 07:43:01] INFO  Commands: stats | blocked | whitelist | whitelist add <ip> | whitelist remove <ip> | blacklist | blacklist add <ip> | blacklist remove <ip> | unblock <ip> | exit
+[2025-12-26 07:45:26] INFO  NIDS Threshold TCP Server started on port 9090
+[2025-12-26 07:45:26] INFO  UDP Log Collector started on port 5514 (format: ip|event|detail  OR raw text)
+[2025-12-26 07:45:26] INFO  Config: port=9090, windowMs=10000, staticThreshold=20, blockBaseMs=30000, maxBlockMs=600000, adaptiveEnabled=false, adaptiveFactor=3, refreshMs=1000, collectorEnabled=true, collectorPort=5514, maxEvents=2000
+[2025-12-26 07:45:26] INFO  Commands: stats | blocked | whitelist | whitelist add <ip> | whitelist remove <ip> | blacklist | blacklist add <ip> | blacklist remove <ip> | unblock <ip> | exit
+[2025-12-26 07:45:35] INFO  Accepted connection from IP=127.0.0.1 connInWindow=1 thresholdUsed=20 total=1 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:35] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=2 thresholdUsed=20 total=2 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=3 thresholdUsed=20 total=3 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=4 thresholdUsed=20 total=4 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=5 thresholdUsed=20 total=5 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=6 thresholdUsed=20 total=6 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=7 thresholdUsed=20 total=7 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=8 thresholdUsed=20 total=8 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=9 thresholdUsed=20 total=9 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=10 thresholdUsed=20 total=10 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=11 thresholdUsed=20 total=11 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=12 thresholdUsed=20 total=12 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=13 thresholdUsed=20 total=13 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=14 thresholdUsed=20 total=14 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=15 thresholdUsed=20 total=15 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=16 thresholdUsed=20 total=16 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=17 thresholdUsed=20 total=17 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=18 thresholdUsed=20 total=18 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=19 thresholdUsed=20 total=19 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=20 thresholdUsed=20 total=20 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=21 thresholdUsed=20 total=21 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=22 thresholdUsed=20 total=22 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=23 thresholdUsed=20 total=23 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=24 thresholdUsed=20 total=24 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=25 thresholdUsed=20 total=25 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=26 thresholdUsed=20 total=26 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=27 thresholdUsed=20 total=27 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=28 thresholdUsed=20 total=28 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=29 thresholdUsed=20 total=29 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=30 thresholdUsed=20 total=30 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=31 thresholdUsed=20 total=31 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=32 thresholdUsed=20 total=32 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=33 thresholdUsed=20 total=33 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=34 thresholdUsed=20 total=34 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=35 thresholdUsed=20 total=35 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=36 thresholdUsed=20 total=36 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=37 thresholdUsed=20 total=37 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=38 thresholdUsed=20 total=38 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=39 thresholdUsed=20 total=39 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=40 thresholdUsed=20 total=40 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=41 thresholdUsed=20 total=41 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=42 thresholdUsed=20 total=42 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=43 thresholdUsed=20 total=43 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=44 thresholdUsed=20 total=44 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=45 thresholdUsed=20 total=45 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=46 thresholdUsed=20 total=46 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=47 thresholdUsed=20 total=47 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=48 thresholdUsed=20 total=48 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=49 thresholdUsed=20 total=49 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=50 thresholdUsed=20 total=50 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=51 thresholdUsed=20 total=51 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=52 thresholdUsed=20 total=52 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=53 thresholdUsed=20 total=53 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=54 thresholdUsed=20 total=54 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=55 thresholdUsed=20 total=55 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=56 thresholdUsed=20 total=56 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=57 thresholdUsed=20 total=57 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=58 thresholdUsed=20 total=58 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=59 thresholdUsed=20 total=59 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=60 thresholdUsed=20 total=60 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=61 thresholdUsed=20 total=61 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=62 thresholdUsed=20 total=62 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=63 thresholdUsed=20 total=63 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=64 thresholdUsed=20 total=64 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=65 thresholdUsed=20 total=65 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=66 thresholdUsed=20 total=66 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=67 thresholdUsed=20 total=67 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=68 thresholdUsed=20 total=68 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=69 thresholdUsed=20 total=69 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=70 thresholdUsed=20 total=70 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=71 thresholdUsed=20 total=71 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=72 thresholdUsed=20 total=72 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=73 thresholdUsed=20 total=73 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=74 thresholdUsed=20 total=74 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=75 thresholdUsed=20 total=75 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=76 thresholdUsed=20 total=76 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=77 thresholdUsed=20 total=77 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=78 thresholdUsed=20 total=78 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=79 thresholdUsed=20 total=79 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=80 thresholdUsed=20 total=80 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=81 thresholdUsed=20 total=81 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=82 thresholdUsed=20 total=82 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=83 thresholdUsed=20 total=83 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=84 thresholdUsed=20 total=84 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=85 thresholdUsed=20 total=85 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=86 thresholdUsed=20 total=86 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=87 thresholdUsed=20 total=87 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=88 thresholdUsed=20 total=88 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=89 thresholdUsed=20 total=89 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=90 thresholdUsed=20 total=90 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=91 thresholdUsed=20 total=91 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=92 thresholdUsed=20 total=92 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=93 thresholdUsed=20 total=93 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=94 thresholdUsed=20 total=94 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=95 thresholdUsed=20 total=95 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=96 thresholdUsed=20 total=96 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=97 thresholdUsed=20 total=97 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=98 thresholdUsed=20 total=98 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=99 thresholdUsed=20 total=99 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=100 thresholdUsed=20 total=100 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Accepted connection from IP=127.0.0.1 connInWindow=101 thresholdUsed=20 total=101 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:45:43] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:34] INFO  NIDS Threshold TCP Server started on port 9090
+[2025-12-26 07:46:34] INFO  UDP Log Collector started on port 5514 (format: ip|event|detail  OR raw text)
+[2025-12-26 07:46:34] INFO  Config: port=9090, windowMs=10000, staticThreshold=20, blockBaseMs=30000, maxBlockMs=600000, adaptiveEnabled=false, adaptiveFactor=3, refreshMs=1000, collectorEnabled=true, collectorPort=5514, maxEvents=2000
+[2025-12-26 07:46:34] INFO  Commands: stats | blocked | whitelist | whitelist add <ip> | whitelist remove <ip> | blacklist | blacklist add <ip> | blacklist remove <ip> | unblock <ip> | exit
+[2025-12-26 07:46:38] INFO  Accepted connection from IP=127.0.0.1 connInWindow=1 thresholdUsed=20 total=1 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:38] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=2 thresholdUsed=20 total=2 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=3 thresholdUsed=20 total=3 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=4 thresholdUsed=20 total=4 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=5 thresholdUsed=20 total=5 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=6 thresholdUsed=20 total=6 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=7 thresholdUsed=20 total=7 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=8 thresholdUsed=20 total=8 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=9 thresholdUsed=20 total=9 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=10 thresholdUsed=20 total=10 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=11 thresholdUsed=20 total=11 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=12 thresholdUsed=20 total=12 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=13 thresholdUsed=20 total=13 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=14 thresholdUsed=20 total=14 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=15 thresholdUsed=20 total=15 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=16 thresholdUsed=20 total=16 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=17 thresholdUsed=20 total=17 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=18 thresholdUsed=20 total=18 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=19 thresholdUsed=20 total=19 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=20 thresholdUsed=20 total=20 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=21 thresholdUsed=20 total=21 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=22 thresholdUsed=20 total=22 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=23 thresholdUsed=20 total=23 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=24 thresholdUsed=20 total=24 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=25 thresholdUsed=20 total=25 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=26 thresholdUsed=20 total=26 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=27 thresholdUsed=20 total=27 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=28 thresholdUsed=20 total=28 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=29 thresholdUsed=20 total=29 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=30 thresholdUsed=20 total=30 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=31 thresholdUsed=20 total=31 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=32 thresholdUsed=20 total=32 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=33 thresholdUsed=20 total=33 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=34 thresholdUsed=20 total=34 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=35 thresholdUsed=20 total=35 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=36 thresholdUsed=20 total=36 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=37 thresholdUsed=20 total=37 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=38 thresholdUsed=20 total=38 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=39 thresholdUsed=20 total=39 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=40 thresholdUsed=20 total=40 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=41 thresholdUsed=20 total=41 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=42 thresholdUsed=20 total=42 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=43 thresholdUsed=20 total=43 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=44 thresholdUsed=20 total=44 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=45 thresholdUsed=20 total=45 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=46 thresholdUsed=20 total=46 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=47 thresholdUsed=20 total=47 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=48 thresholdUsed=20 total=48 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=49 thresholdUsed=20 total=49 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=50 thresholdUsed=20 total=50 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=51 thresholdUsed=20 total=51 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=52 thresholdUsed=20 total=52 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=53 thresholdUsed=20 total=53 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=54 thresholdUsed=20 total=54 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=55 thresholdUsed=20 total=55 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=56 thresholdUsed=20 total=56 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=57 thresholdUsed=20 total=57 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=58 thresholdUsed=20 total=58 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=59 thresholdUsed=20 total=59 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=60 thresholdUsed=20 total=60 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=61 thresholdUsed=20 total=61 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=62 thresholdUsed=20 total=62 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=63 thresholdUsed=20 total=63 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=64 thresholdUsed=20 total=64 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=65 thresholdUsed=20 total=65 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=66 thresholdUsed=20 total=66 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=67 thresholdUsed=20 total=67 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=68 thresholdUsed=20 total=68 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=69 thresholdUsed=20 total=69 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=70 thresholdUsed=20 total=70 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=71 thresholdUsed=20 total=71 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=72 thresholdUsed=20 total=72 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=73 thresholdUsed=20 total=73 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=74 thresholdUsed=20 total=74 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=75 thresholdUsed=20 total=75 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=76 thresholdUsed=20 total=76 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=77 thresholdUsed=20 total=77 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=78 thresholdUsed=20 total=78 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=79 thresholdUsed=20 total=79 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=80 thresholdUsed=20 total=80 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=81 thresholdUsed=20 total=81 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=82 thresholdUsed=20 total=82 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=83 thresholdUsed=20 total=83 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=84 thresholdUsed=20 total=84 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=85 thresholdUsed=20 total=85 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=86 thresholdUsed=20 total=86 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=87 thresholdUsed=20 total=87 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=88 thresholdUsed=20 total=88 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=89 thresholdUsed=20 total=89 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=90 thresholdUsed=20 total=90 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=91 thresholdUsed=20 total=91 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=92 thresholdUsed=20 total=92 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=93 thresholdUsed=20 total=93 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=94 thresholdUsed=20 total=94 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=95 thresholdUsed=20 total=95 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=96 thresholdUsed=20 total=96 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=97 thresholdUsed=20 total=97 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=98 thresholdUsed=20 total=98 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=99 thresholdUsed=20 total=99 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=100 thresholdUsed=20 total=100 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Accepted connection from IP=127.0.0.1 connInWindow=101 thresholdUsed=20 total=101 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:46:44] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:16] INFO  NIDS Threshold TCP Server started on port 9090
+[2025-12-26 07:48:16] INFO  UDP Log Collector started on port 5514 (format: ip|event|detail  OR raw text)
+[2025-12-26 07:48:16] INFO  Config: port=9090, windowMs=10000, staticThreshold=20, blockBaseMs=30000, maxBlockMs=600000, adaptiveEnabled=false, adaptiveFactor=3, refreshMs=1000, collectorEnabled=true, collectorPort=5514, maxEvents=2000
+[2025-12-26 07:48:16] INFO  Commands: stats | blocked | whitelist | whitelist add <ip> | whitelist remove <ip> | blacklist | blacklist add <ip> | blacklist remove <ip> | unblock <ip> | exit
+[2025-12-26 07:48:19] INFO  Accepted connection from IP=127.0.0.1 connInWindow=1 thresholdUsed=20 total=1 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:19] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=2 thresholdUsed=20 total=2 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=3 thresholdUsed=20 total=3 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=4 thresholdUsed=20 total=4 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=5 thresholdUsed=20 total=5 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=6 thresholdUsed=20 total=6 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=7 thresholdUsed=20 total=7 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=8 thresholdUsed=20 total=8 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=9 thresholdUsed=20 total=9 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=10 thresholdUsed=20 total=10 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=11 thresholdUsed=20 total=11 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=12 thresholdUsed=20 total=12 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=13 thresholdUsed=20 total=13 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=14 thresholdUsed=20 total=14 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=15 thresholdUsed=20 total=15 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=16 thresholdUsed=20 total=16 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=17 thresholdUsed=20 total=17 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=18 thresholdUsed=20 total=18 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=19 thresholdUsed=20 total=19 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=20 thresholdUsed=20 total=20 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=21 thresholdUsed=20 total=21 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=22 thresholdUsed=20 total=22 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=23 thresholdUsed=20 total=23 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=24 thresholdUsed=20 total=24 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=25 thresholdUsed=20 total=25 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=26 thresholdUsed=20 total=26 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=27 thresholdUsed=20 total=27 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=28 thresholdUsed=20 total=28 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=29 thresholdUsed=20 total=29 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=30 thresholdUsed=20 total=30 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=31 thresholdUsed=20 total=31 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=32 thresholdUsed=20 total=32 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=33 thresholdUsed=20 total=33 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=34 thresholdUsed=20 total=34 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=35 thresholdUsed=20 total=35 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=36 thresholdUsed=20 total=36 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=37 thresholdUsed=20 total=37 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=38 thresholdUsed=20 total=38 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=39 thresholdUsed=20 total=39 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=40 thresholdUsed=20 total=40 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=41 thresholdUsed=20 total=41 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=42 thresholdUsed=20 total=42 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=43 thresholdUsed=20 total=43 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=44 thresholdUsed=20 total=44 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=45 thresholdUsed=20 total=45 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=46 thresholdUsed=20 total=46 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=47 thresholdUsed=20 total=47 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=48 thresholdUsed=20 total=48 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=49 thresholdUsed=20 total=49 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=50 thresholdUsed=20 total=50 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=51 thresholdUsed=20 total=51 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=52 thresholdUsed=20 total=52 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=53 thresholdUsed=20 total=53 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=54 thresholdUsed=20 total=54 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=55 thresholdUsed=20 total=55 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=56 thresholdUsed=20 total=56 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=57 thresholdUsed=20 total=57 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=58 thresholdUsed=20 total=58 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=59 thresholdUsed=20 total=59 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=60 thresholdUsed=20 total=60 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=61 thresholdUsed=20 total=61 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=62 thresholdUsed=20 total=62 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=63 thresholdUsed=20 total=63 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=64 thresholdUsed=20 total=64 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=65 thresholdUsed=20 total=65 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=66 thresholdUsed=20 total=66 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=67 thresholdUsed=20 total=67 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=68 thresholdUsed=20 total=68 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=69 thresholdUsed=20 total=69 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=70 thresholdUsed=20 total=70 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=71 thresholdUsed=20 total=71 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=72 thresholdUsed=20 total=72 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=73 thresholdUsed=20 total=73 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=74 thresholdUsed=20 total=74 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=75 thresholdUsed=20 total=75 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=76 thresholdUsed=20 total=76 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=77 thresholdUsed=20 total=77 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=78 thresholdUsed=20 total=78 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=79 thresholdUsed=20 total=79 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=80 thresholdUsed=20 total=80 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=81 thresholdUsed=20 total=81 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=82 thresholdUsed=20 total=82 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=83 thresholdUsed=20 total=83 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=84 thresholdUsed=20 total=84 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=85 thresholdUsed=20 total=85 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=86 thresholdUsed=20 total=86 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=87 thresholdUsed=20 total=87 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=88 thresholdUsed=20 total=88 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=89 thresholdUsed=20 total=89 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=90 thresholdUsed=20 total=90 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=91 thresholdUsed=20 total=91 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=92 thresholdUsed=20 total=92 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=93 thresholdUsed=20 total=93 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=94 thresholdUsed=20 total=94 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=95 thresholdUsed=20 total=95 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=96 thresholdUsed=20 total=96 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=97 thresholdUsed=20 total=97 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=98 thresholdUsed=20 total=98 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=99 thresholdUsed=20 total=99 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=100 thresholdUsed=20 total=100 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:48:22] INFO  Accepted connection from IP=127.0.0.1 connInWindow=101 thresholdUsed=20 total=101 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 07:48:22] INFO  Received from 127.0.0.1: hello
+[2025-12-26 07:49:04] INFO  NIDS Threshold TCP Server started on port 9090
+[2025-12-26 07:49:04] INFO  UDP Log Collector started on port 5514 (format: ip|event|detail  OR raw text)
+[2025-12-26 07:49:04] INFO  Config: port=9090, windowMs=10000, staticThreshold=20, blockBaseMs=30000, maxBlockMs=600000, adaptiveEnabled=false, adaptiveFactor=3, refreshMs=1000, collectorEnabled=true, collectorPort=5514, maxEvents=2000
+[2025-12-26 07:49:04] INFO  Commands: stats | blocked | whitelist | whitelist add <ip> | whitelist remove <ip> | blacklist | blacklist add <ip> | blacklist remove <ip> | unblock <ip> | exit
+[2025-12-26 17:13:34] INFO  NIDS Threshold TCP Server started on port 9090
+[2025-12-26 17:13:34] INFO  UDP Log Collector started on port 5514 (format: ip|event|detail  OR raw text)
+[2025-12-26 17:13:34] INFO  Config: port=9090, windowMs=10000, staticThreshold=20, blockBaseMs=30000, maxBlockMs=600000, adaptiveEnabled=false, adaptiveFactor=3, refreshMs=1000, collectorEnabled=true, collectorPort=5514, maxEvents=2000
+[2025-12-26 17:13:34] INFO  Commands: stats | blocked | whitelist | whitelist add <ip> | whitelist remove <ip> | blacklist | blacklist add <ip> | blacklist remove <ip> | unblock <ip> | exit
+[2025-12-26 17:15:53] INFO  Accepted connection from IP=127.0.0.1 connInWindow=1 thresholdUsed=20 total=1 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:15:53] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:20] INFO  Accepted connection from IP=127.0.0.1 connInWindow=1 thresholdUsed=20 total=2 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:20] INFO  Accepted connection from IP=127.0.0.1 connInWindow=2 thresholdUsed=20 total=3 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=3 thresholdUsed=20 total=4 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=4 thresholdUsed=20 total=5 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=5 thresholdUsed=20 total=6 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=6 thresholdUsed=20 total=7 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=7 thresholdUsed=20 total=8 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=8 thresholdUsed=20 total=9 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=9 thresholdUsed=20 total=10 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=10 thresholdUsed=20 total=11 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=11 thresholdUsed=20 total=12 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=12 thresholdUsed=20 total=13 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=13 thresholdUsed=20 total=14 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=14 thresholdUsed=20 total=15 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=15 thresholdUsed=20 total=16 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=16 thresholdUsed=20 total=17 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=17 thresholdUsed=20 total=18 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=18 thresholdUsed=20 total=19 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=19 thresholdUsed=20 total=20 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=20 thresholdUsed=20 total=21 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=21 thresholdUsed=20 total=22 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=22 thresholdUsed=20 total=23 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=23 thresholdUsed=20 total=24 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=24 thresholdUsed=20 total=25 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=25 thresholdUsed=20 total=26 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=26 thresholdUsed=20 total=27 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=27 thresholdUsed=20 total=28 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=28 thresholdUsed=20 total=29 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=29 thresholdUsed=20 total=30 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=30 thresholdUsed=20 total=31 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=31 thresholdUsed=20 total=32 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=32 thresholdUsed=20 total=33 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=33 thresholdUsed=20 total=34 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=34 thresholdUsed=20 total=35 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=35 thresholdUsed=20 total=36 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=36 thresholdUsed=20 total=37 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=37 thresholdUsed=20 total=38 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=38 thresholdUsed=20 total=39 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=39 thresholdUsed=20 total=40 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=40 thresholdUsed=20 total=41 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=41 thresholdUsed=20 total=42 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=42 thresholdUsed=20 total=43 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=43 thresholdUsed=20 total=44 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=44 thresholdUsed=20 total=45 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=45 thresholdUsed=20 total=46 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=46 thresholdUsed=20 total=47 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=47 thresholdUsed=20 total=48 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=48 thresholdUsed=20 total=49 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=49 thresholdUsed=20 total=50 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=50 thresholdUsed=20 total=51 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=51 thresholdUsed=20 total=52 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=52 thresholdUsed=20 total=53 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=53 thresholdUsed=20 total=54 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=54 thresholdUsed=20 total=55 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=55 thresholdUsed=20 total=56 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=56 thresholdUsed=20 total=57 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=57 thresholdUsed=20 total=58 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=58 thresholdUsed=20 total=59 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=59 thresholdUsed=20 total=60 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=60 thresholdUsed=20 total=61 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=61 thresholdUsed=20 total=62 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=62 thresholdUsed=20 total=63 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=63 thresholdUsed=20 total=64 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=64 thresholdUsed=20 total=65 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=65 thresholdUsed=20 total=66 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=66 thresholdUsed=20 total=67 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=67 thresholdUsed=20 total=68 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=68 thresholdUsed=20 total=69 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=69 thresholdUsed=20 total=70 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=70 thresholdUsed=20 total=71 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=71 thresholdUsed=20 total=72 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=72 thresholdUsed=20 total=73 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=73 thresholdUsed=20 total=74 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=74 thresholdUsed=20 total=75 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=75 thresholdUsed=20 total=76 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=76 thresholdUsed=20 total=77 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=77 thresholdUsed=20 total=78 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=78 thresholdUsed=20 total=79 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=79 thresholdUsed=20 total=80 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=80 thresholdUsed=20 total=81 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=81 thresholdUsed=20 total=82 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=82 thresholdUsed=20 total=83 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=83 thresholdUsed=20 total=84 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=84 thresholdUsed=20 total=85 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=85 thresholdUsed=20 total=86 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=86 thresholdUsed=20 total=87 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=87 thresholdUsed=20 total=88 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=88 thresholdUsed=20 total=89 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=89 thresholdUsed=20 total=90 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=90 thresholdUsed=20 total=91 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=91 thresholdUsed=20 total=92 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=92 thresholdUsed=20 total=93 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=93 thresholdUsed=20 total=94 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=94 thresholdUsed=20 total=95 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=95 thresholdUsed=20 total=96 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=96 thresholdUsed=20 total=97 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=97 thresholdUsed=20 total=98 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=98 thresholdUsed=20 total=99 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=99 thresholdUsed=20 total=100 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Accepted connection from IP=127.0.0.1 connInWindow=100 thresholdUsed=20 total=101 blockedTimes=0 whitelisted=true severity=WHITELISTED
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:21] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:16:56] INFO  Whitelist removed (GUI): 127.0.0.1
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=1 thresholdUsed=20 total=102 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=2 thresholdUsed=20 total=103 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=3 thresholdUsed=20 total=104 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=4 thresholdUsed=20 total=105 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=5 thresholdUsed=20 total=106 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=6 thresholdUsed=20 total=107 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=7 thresholdUsed=20 total=108 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=8 thresholdUsed=20 total=109 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=9 thresholdUsed=20 total=110 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=10 thresholdUsed=20 total=111 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=11 thresholdUsed=20 total=112 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=12 thresholdUsed=20 total=113 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=13 thresholdUsed=20 total=114 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=14 thresholdUsed=20 total=115 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=15 thresholdUsed=20 total=116 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=16 thresholdUsed=20 total=117 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=17 thresholdUsed=20 total=118 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=18 thresholdUsed=20 total=119 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=19 thresholdUsed=20 total=120 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Accepted connection from IP=127.0.0.1 connInWindow=20 thresholdUsed=20 total=121 blockedTimes=0 whitelisted=false severity=NORMAL
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] INFO  Received from 127.0.0.1: hello
+[2025-12-26 17:17:01] BLOCK IP=127.0.0.1 exceeded threshold. connInWindow=21, thresholdUsed=20, severity=LOW, blockMsUsed=30000
+[2025-12-26 17:17:01] WARN  Rejected blocked IP=127.0.0.1 remaining=29995ms
+[2025-12-26 17:17:01] WARN  Rejected blocked IP=127.0.0.1 remaining=29990ms
+[2025-12-26 17:17:01] WARN  Rejected blocked IP=127.0.0.1 remaining=29989ms
+[2025-12-26 17:17:01] WARN  Rejected blocked IP=127.0.0.1 remaining=29989ms
+[2025-12-26 17:17:01] WARN  Rejected blocked IP=127.0.0.1 remaining=29988ms
+[2025-12-26 17:17:01] WARN  Rejected blocked IP=127.0.0.1 remaining=29986ms
+[2025-12-26 17:17:01] WARN  Rejected blocked IP=127.0.0.1 remaining=29985ms
+[2025-12-26 17:17:01] WARN  Rejected blocked IP=127.0.0.1 remaining=29984ms
+[2025-12-26 17:17:01] WARN  Rejected blocked IP=127.0.0.1 remaining=29983ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29973ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29969ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29968ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29966ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29965ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29964ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29963ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29962ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29961ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29960ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29951ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29947ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29944ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29944ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29942ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29941ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29939ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29938ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29938ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29937ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29926ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29924ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29923ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29920ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29919ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29918ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29916ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29915ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29914ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29914ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29905ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29900ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29899ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29899ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29898ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29897ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29895ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29893ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29892ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29891ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29881ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29878ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29877ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29876ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29874ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29872ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29871ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29870ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29868ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29867ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29857ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29855ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29854ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29853ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29851ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29850ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29849ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29846ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29845ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29844ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29835ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29831ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29830ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29829ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29828ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29827ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29825ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29823ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29821ms
+[2025-12-26 17:17:02] WARN  Rejected blocked IP=127.0.0.1 remaining=29820ms
