@@ -1,0 +1,160 @@
+UPLOAD|crawler.log|13990[2025-11-24 10:59:42] Bat dau xu ly URL (Depth 0): https://www.google.com
+[2025-11-24 10:59:54] [ERROR] URL: https://www.google.com
+  Loi: Loi khi xu ly URL (mat 11436 ms): www.google.com
+  Chi tiet: UnknownHostException - www.google.com
+---
+[2025-11-24 10:59:54] [ERROR] URL: https://www.google.com
+  Loi: Loi khi xu ly URL: www.google.com
+  Chi tiet: UnknownHostException - www.google.com
+---
+[2025-11-24 10:59:54] Bat dau xu ly URL (Depth 0): https://www.github.com
+[2025-11-24 11:00:05] [ERROR] URL: https://www.github.com
+  Loi: Loi khi xu ly URL (mat 11358 ms): www.github.com
+  Chi tiet: UnknownHostException - www.github.com
+---
+[2025-11-24 11:00:05] [ERROR] URL: https://www.github.com
+  Loi: Loi khi xu ly URL: www.github.com
+  Chi tiet: UnknownHostException - www.github.com
+---
+[2025-11-24 11:00:05] Bat dau xu ly URL (Depth 0): https://www.stackoverflow.com
+[2025-11-24 11:00:17] [ERROR] URL: https://www.stackoverflow.com
+  Loi: Loi khi xu ly URL (mat 11347 ms): www.stackoverflow.com
+  Chthuser=0
+[2025-11-24 12:46:30] Hoan thanh URL: https://www.google.com/advanced_search?hl=vi&amp;authuser=0 | IP: 142.250.197.164 | Links: 11 | Thoi gian: 175 ms
+[2025-11-24 12:46:30] Bat dau xu ly URL (Depth 1): https://www.google.com/setprefs?sig=0_CbA0SfFpphuGShYjs-QPAE9SF4M%3D&amp;hl=en&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjqkbj3ioqRAxXmn68BHbKLClwQ2ZgBCAU
+[2025-11-24 12:46:30] Hoan thanh URL: https://www.google.com/setprefs?sig=0_CbA0SfFpphuGShYjs-QPAE9SF4M%3D&amp;hl=en&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjqkbj3ioqRAxXmn68BHbKLClwQ2ZgBCAU | IP: 142.250.197.164 | Links: 8 | Thoi gian: 492 ms
+[2025-11-24 12:46:30] Bat dau xu ly URL (Depth 1): https://www.google.com/setprefs?sig=0_CbA0SfFpphuGShYjs-QPAE9SF4M%3D&amp;hl=fr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjqkbj3ioqRAxXmn68BHbKLClwQ2ZgBCAY
+[2025-11-24 12:46:31] Hoan thanh URL: https://www.google.com/setprefs?sig=0_CbA0SfFpphuGShYjs-QPAE9SF4M%3D&amp;hl=fr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwjqkbj3ioqRAxXmn68BHbKLClwQ2ZgBCAYilot
+[2025-11-24 12:46:36] Hoan thanh URL: https://github.com/features/copilot | IP: 20.205.243.166 | Links: 140 | Thoi gian: 546 ms
+[2025-11-24 12:46:36] Bat dau xu ly URL (Depth 1): https://github.com/features/spark
+[2025-11-24 12:46:37] Hoan thanh URL: https://github.com/features/spark | IP: 20.205.243.166 | Links: 105 | Thoi gian: 448 ms
+[2025-11-24 12:46:37] Bat dau xu ly URL (Depth 1): https://github.com/features/models
+[2025-11-24 12:46:37] Hoan thanh URL: https://github.com/features/models | IP: 20.205.243.166 | Links: 104 | Thoi gian: 488 ms
+[2025-11-24 12:46:37] Bat dau xu ly URL (Depth 1): https://github.com/security/advanced-security
+[2025-11-24 12:46:38] Hoan thanh URL: https://github.com/security/advanced-security | IP: 20.205.243.166 | Links: 114 | Thoi gian: 824 ms
+[2025-11-24 12:46:38] Bat dau xu ly URL (Depth 1): https://github.com/features/actions
+[2025-11-24 12:46:39] Hoan thanh URL: https://github.com/features/actions | IP: 20.205.243.166 | Links: 107 | Thoi gian: 478 ms
+[2025-11-24 12:46:39] Bat dau xu ly URL (Depth 1): https://github.com/features/codespaces
+[2025-11-24 12:46:39] Hoan thanh URL: https://github.com/features/codespaces | IP: 20.205.243.166 | Links: 118 | Thoi gian: 784 ms
+[2025-11-24 12:46:39] Bat dau xu ly URL (Depth 1): https://github.com/features/issues
+[2025-11-24 12:46:40] Hoan thanh URL: https://github.com/features/issues | IP: 20.205.243.166 | Links: 106 | Thoi gian: 518 ms
+[2025-11-24 12:46:40] Bat dau xu ly URL (Depth 1): https://github.com/features/code-review
+[2025-11-24 12:46:41] Hoan thanh URL: https://github.com/features/code-review | IP: 20.205.243.166 | Links: 108 | Thoi gian: 889 ms
+[2025-11-24 12:46:41] Bat dau xu ly URL (Depth 1): https://github.com/features/discussions
+[2025-11-24 12:46:41] Hoan thanh URL: https://github.com/features/discussions | IP: 20.205.243.166 | Links: 103 | Thoi gian: 603 ms
+[2025-11-24 12:46:41] Bat dau xu ly URL (Depth 1): https://github.com/features/code-search
+[2025-11-24 12:46:42] Hoan thanh URL: https://githugithub.com/enterprise | IP: 20.205.243.166 | Links: 124 | Thoi gian: 2249 ms
+[2025-11-24 12:46:50] Bat dau xu ly URL (Depth 1): https://github.com/team
+[2025-11-24 12:46:51] Hoan thanh URL: https://github.com/team | IP: 20.205.243.166 | Links: 111 | Thoi gian: 674 ms
+[2025-11-24 12:46:51] Bat dau xu ly URL (Depth 1): https://github.com/enterprise/startups
+[2025-11-24 12:46:51] Hoan thanh URL: https://github.com/enterprise/startups | IP: 20.205.243.166 | Links: 111 | Thoi gian: 771 ms
+[2025-11-24 12:46:51] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/industry/nonprofits
+[2025-11-24 12:46:52] Hoan thanh URL: https://www.github.com/solutions/industry/nonprofits | IP: 20.205.243.166 | Links: 104 | Thoi gian: 881 ms
+[2025-11-24 12:46:52] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/use-case/app-modernization
+[2025-11-24 12:46:53] Hoan thanh URL: https://www.github.com/solutions/use-case/app-modernization | IP: 20.205.243.166 | Links: 105 | Thoi gian: 812 ms
+[2025-11-24 12:46:53] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/use-case/devsecops
+[2025-11-24 12:46:54] Hoan thanh URL: https://www.github.com/solutions/use-case/devsecops | IP: 20.205.243.166 | Links: 106 | Thoi gian: 915 ms
+[2025-11-24 12:46:54] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/use-case/devops
+[2025-11-24 12:46:55] Hoan thanh URL: https://www.github.com/solutions/use-case/devops | IP: 20.205.243.166 | Links: 107 | Thoi gian: 893 ms
+[2025-11-24 12:46:55] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/use-case/ci-cd
+[2025-11-24 12:46:56] Hoan thanh URL: https://www.github.com/solutions/use-case/ci-cd | IP: 20.205.243.166 | Links: 105 | Thoi gian: 854 ms
+[2025-11-24 12:46:56] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/use-case
+[2025-11-24 12:46:57] Hoan thanh URL: https://www.github.com/solutions/use-case | IP: 20.205.243.166 | Links: 109 | Thoi gian: 833 ms
+[2025-11-24 12:46:57] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/industry/healthcare
+[2025-11-24 12:46:58] Hoan thanh URL: https://www.github.com/solutions/industry/healthcare | IP: 20.205.243.166 | Links: 110 | Thoi gian: 1476 ms
+[2025-11-24 12:46:58] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/industry/financial-services
+[2025-11-24 12:46:59] Hoan thanh URL: https://www.github.com/solutions/industry/financial-services | IP: 20.205.243.166 | Links: 106 | Thoi gian: 936 ms
+[2025-11-24 12:46:59] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/industry/manufacturing
+[2025-11-24 12:47:00] Hoan thanh URL: https://www.github.com/solutions/industry/manufacturing | IP: 20.205.243.166 | Links: 103 | Thoi gian: 1420 ms
+[2025-11-24 12:47:00] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/industry/government
+[2025-11-24 12:47:01] Hoan thanh URL: https://www.github.com/solutions/industry/government | IP: 20.205.243.166 | Links: 105 | Thoi gian: 858 ms
+[2025-11-24 12:47:01] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/industry
+[2025-11-24 12:47:02] Hoan thanh URL: https://www.github.com/solutions/industry | IP: 20.205.243.166 | Links: 109 | Thoi gian: 901 ms
+[2025-11-24 12:47:02] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions
+[2025-11-24 12:47:03] Hoan thanh URL: https://www.github.com/solutions | IP: 20.205.243.166 | Links: 113 | Thoi gian: 873 ms
+[2025-11-24 12:47:03] Bat dau xu ly URL (Depth 1): https://www.github.com/resources/articles?topic=ai
+[2025-11-24 12:47:04] Hoan thanh URL: https://www.github.com/resources/articles?topic=ai | IP: 20.205.243.166 | Links: 112 | Thoi gian: 981 ms
+[2025-11-24 12:47:04] Da dat gioi han so luong URL toi da: 50
+UPLOAD|crawler.log|139907.37 | Links: 6 | Thoi gian: 2032 ms
+[2025-11-24 12:46:27] Bat dau xu ly URL (Depth 1): https://www.google.com/imghp?hl=vi&amp;tab=wi&amp;ogbl
+[2025-11-24 12:46:28] Hoan thanh URL: https://www.google.com/imghp?hl=vi&amp;tab=wi&amp;ogbl | IP: 142.250.197.164 | Links: 7 | Thoi gian: 276 ms
+[2025-11-24 12:46:28] Bat dau xu ly URL (Depth 1): https://www.google.com.vn/intl/vi/about/products?tab=wh
+[2025-11-24 12:46:29] Hoan thanh URL: https://www.google.com.vn/intl/vi/about/products?tab=wh | IP: 142.250.71.131 | Links: 173 | Thoi gian: 1141 ms
+[2025-11-24 12:46:29] Bat dau xu ly URL (Depth 1): https://accounts.google.com/ServiceLogin?hl=vi&amp;passive=true&amp;continue=https://www.google.com/&amp;ec=GAZAAQ
+[2025-11-24 12:46:30] Hoan thanh URL: https://accounts.google.com/ServiceLogin?hl=vi&amp;passive=true&amp;continue=https://www.google.com/&amp;ec=GAZAAQ | IP: 74.125.130.84 | Links: 6 | Thoi gian: 802 ms
+[2025-11-24 12:46:30] Bat dau xu ly URL (Depth 1): https://www.google.com/advanced_search?hl=vi&amp;aub.com/features/code-search | IP: 20.205.243.166 | Links: 103 | Thoi gian: 580 ms
+[2025-11-24 12:46:42] Bat dau xu ly URL (Depth 1): https://github.com/why-github
+[2025-11-24 12:46:43] Hoan thanh URL: https://github.com/why-github | IP: 20.205.243.166 | Links: 108 | Thoi gian: 1204 ms
+[2025-11-24 12:46:43] Bat dau xu ly URL (Depth 1): https://docs.github.com
+[2025-11-24 12:46:44] Hoan thanh URL: https://docs.github.com | IP: 185.199.111.154 | Links: 69 | Thoi gian: 431 ms
+[2025-11-24 12:46:44] Bat dau xu ly URL (Depth 1): https://skills.github.com
+[2025-11-24 12:46:44] Hoan thanh URL: https://skills.github.com | IP: 185.199.110.153 | Links: 28 | Thoi gian: 558 ms
+[2025-11-24 12:46:44] Bat dau xu ly URL (Depth 1): https://github.blog
+[2025-11-24 12:46:45] Hoan thanh URL: https://github.blog | IP: 192.0.66.2 | Links: 134 | Thoi gian: 366 ms
+[2025-11-24 12:46:45] Bat dau xu ly URL (Depth 1): https://github.com/marketplace
+[2025-11-24 12:46:45] [ERROR] URL: https://github.com/marketplace
+  Loi: Loi khi UPLOAD|data.inp|25UPLOAD|crawler.log|139907.37 | Links: 6 | Thoi gian: 2032 ms
+[2025-11-24 12:46:27] Bat dau xu ly URL (Depth 1): https://www.google.com/imghp?hl=vi&amp;tab=wi&amp;ogbl
+[2025-11-24 12:46:28] Hoan thanh URL: https://www.google.com/imghp?hl=vi&amp;tab=wi&amp;ogbl | IP: 142.250.197.164 | Links: 7 | Thoi gian: 276 ms
+[2025-11-24 12:46:28] Bat dau xu ly URL (Depth 1): https://www.google.com.vn/intl/vi/about/products?tab=wh
+[2025-11-24 12:46:29] Hoan thanh URL: https://www.google.com.vn/intl/vi/about/products?tab=wh | IP: 142.250.71.131 | Links: 173 | Thoi gian: 1141 ms
+[2025-11-24 12:46:29] Bat dau xu ly URL (Depth 1): https://accounts.google.com/ServiceLogin?hl=vi&amp;passive=true&amp;continue=https://www.google.com/&amp;ec=GAZAAQ
+[2025-11-24 12:46:30] Hoan thanh URL: https://accounts.google.com/ServiceLogin?hl=vi&amp;passive=true&amp;continue=https://www.google.com/&amp;ec=GAZAAQ | IP: 74.125.130.84 | Links: 6 | Thoi gian: 802 ms
+[2025-11-24 12:46:30] Bat dau xu ly URL (Depth 1): https://www.google.com/advanced_search?hl=vi&amp;au1-24 12:46:39] Bat dau xu ly URL (Depth 1): https://github.com/features/codespaces
+[2025-11-24 12:46:39] Hoan thanh URL: https://github.com/features/codespaces | IP: 20.205.243.166 | Links: 118 | Thoi gian: 784 ms
+[2025-11-24 12:46:39] Bat dau xu ly URL (Depth 1): https://github.com/features/issues
+[2025-11-24 12:46:40] Hoan thanh URL: https://github.com/features/issues | IP: 20.205.243.166 | Links: 106 | Thoi gian: 518 ms
+[2025-11-24 12:46:40] Bat dau xu ly URL (Depth 1): https://github.com/features/code-review
+[2025-11-24 12:46:41] Hoan thanh URL: https://github.com/features/code-review | IP: 20.205.243.166 | Links: 108 | Thoi gian: 889 ms
+[2025-11-24 12:46:41] Bat dau xu ly URL (Depth 1): https://github.com/features/discussions
+[2025-11-24 12:46:41] Hoan thanh URL: https://github.com/features/discussions | IP: 20.205.243.166 | Links: 103 | Thoi gian: 603 ms
+[2025-11-24 12:46:41] Bat dau xu ly URL (Depth 1): https://github.com/features/code-search
+[2025-11-24 12:46:42] Hoan thanh URL: https://github.com/features/code-search | IP: 20.205.243.166 | Links: 103 | Thoi gian: 580 ms
+[2025-11-24 12:46:42] Bat dau xu ly URL (Depth 1): https://github.com/why-github
+[2025-11-24 12:46:43] Hoan thanh URL: https://github.com/why-github | IP: 20.205.243.166 | Links: 108 | Thoi gian: 1204 ms
+[2025-11-24 12:46:43] Bat dau xu ly URL (Depth 1): https://docs.github.com
+[2025-11-24 12:46:44] Hoan thanh URL: https://docs.github.com | IP: 185.199.111.154 | Links: 69 | Thoi gian: 431 ms
+[2025-11-24 12:46:44] Bat dau xu ly URL (Depth 1): https://skills.github.com
+[2025-11-24 12:46:44] Hoan thanh URL: https://skills.github.com | IP: 185.199.110.153 | Links: 28 | Thoi gian: 558 ms
+[2025-11-24 12:46:44] Bat dau xu ly URL (Depth 1): https://github.blog
+[2025-11-24 12:46:45] Hoan thanh URL: https://github.blog | IP: 192.0.66.2 | Links: 134 | Thoi gian: 366 ms
+[2025-11-24 12:46:45] Bat dau xu ly URL (Depth 1): https://github.com/marketplace
+[2025-11-24 12:46:45] [ERROR] URL: https://github.com/marketplace
+  Loi: Loi khi xu ly URL (mat 446 ms): Server returned HTTP response code: 400 for URL: https://github.com/marketplace
+  Chi tiet: IOException - Server returned HTTP response code: 400 for URL: https://github.com/marketplace
+---
+[2025-11-24 12:46:45] [ERROR] URL: https://github.com/marketplace
+  Loi: Loi khi xu ly URL: Server returned HTTP response code: 400 for URL: https://github.com/marketplace
+  Chi tiet: IOException - Server returned HTTP response code: 400 for URL: https://github.com/marketplace
+---
+[2025-11-24 12:46:45] Bat dau xu ly URL (Depth 1): https://github.com/mcp
+[2025-11-24 12:46:47] Hoan thanh URL: https://github.com/mcp | IP: 20.205.243.166 | Links: 93 | Thoi gian: 1570 ms
+[2025-11-24 12:46:47] Bat dau xu ly URL (Depth 1): https://github.com/features
+[2025-11-24 12:46:48] Hoan thanh URL: https://github.com/features | IP: 20.205.243.166 | Links: 159 | Thoi gian: 1146 ms
+[2025-11-24 12:46:48] Bat dau xu ly URL (Depth 1): https://github.com/enterprise
+[2025-11-24 12:46:50] Hoan thanh URL: https://github.com/enterprise | IP: 20.205.243.166 | Links: 124 | Thoi gian: 2249 ms
+[2025-11-24 12:46:50] Bat dau xu ly URL (Depth 1): https://github.com/team
+[2025-11-24 12:46:51] Hoan thanh URL: https://github.com/team | IP: 20.205.243.166 | Links: 111 | Thoi gian: 674 ms
+[2025-11-24 12:46:51] Bat dau xu ly URL (Depth 1): https://github.com/enterprise/startups
+[2025-11-24 12:46:51] Hoan thanh URL: https://github.com/enterprise/startups | IP: 20.205.243.166 | Links: 111 | Thoi gian: 771 ms
+[2025-11-24 12:46:51] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/industry/nonprofits
+[2025-11-24 12:46:52] Hoan thanh URL: https://www.github.com/solutions/industry/nonprofits | IP: 20.205.243.166 | Links: 104 | Thoi gian: 881 ms
+[2025-11-24 12:46:52] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/use-case/app-modernization
+[2025-11-24 12:46:53] Hoan thanh URL: https://www.github.com/solutions/use-case/app-modernization | IP: 20.205.243.166 | Links: 105 | Thoi gian: 812 ms
+[2025-11-24 12:46:53] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/use-case/devsecops
+[2025-11-24 12:46:54] Hoan thanh URL: https://www.github.com/solutions/use-case/devsecops | IP: 20.205.243.166 | Links: 106 | Thoi gian: 915 ms
+[2025-11-24 12:46:54] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/use-case/devops
+[2025-11-24 12:46:55] Hoan thanh URL: https://www.github.com/solutions/use-case/devops | IP: 20.205.243.166 | Links: 107 | Thoi gian: 893 ms
+[2025-11-24 12:46:55] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/use-case/ci-cd
+[2025-11-24 12:46:56] Hoan thanh URL: https://www.github.com/solutions/use-case/ci-cd | IP: 20.205.243.166 | Links: 105 | Thoi gian: 854 ms
+[2025-11-24 12:46:56] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/use-case
+[2025-11-24 12:46:57] Hoan thanh URL: https://www.github.com/solutions/use-case | IP: 20.205.243.166 | Links: 109 | Thoi gian: 833 ms
+[2025-11-24 12:46:57] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/industry/healthcare
+[2025-11-24 12:46:58] Hoan thanh URL: https://www.github.com/solutions/industry/healthcare | IP: 20.205.243.166 | Links: 110 | Thoi gian: 1476 ms
+[2025-11-24 12:46:58] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/industry/financial-services
+[2025-11-24 12:46:59] Hoan thanh URL: https://www.github.com/solutions/industry/financial-services | IP: 20.205.243.166 | Links: 106 | Thoi gian: 936 ms
+[2025-11-24 12:46:59] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/industry/manufacturing
+[2025-11-24 12:47:00] Hoan thanh URL: https://www.github.com/solutions/industry/manufacturing | IP: 20.205.243.166 | Links: 103 | Thoi gian: 1420 ms
+[2025-11-24 12:47:00] Bat dau xu ly URL (Depth 1): https://www.github.com/solutions/industry/government
+[2025-11-24 12:47:01] Hoan thanh URL: https://www.github.com/solutions/industry/government | IP: 20.205.243.166 | Links: 105 | Thoi gian: 858 ms
+[2025-11-24 12:47:01] Bat dau xu ly URL (Depth 1): https://www.github.coUPLOAD|domains.txt|74UPLOAD|data.inp|25UPLOAD|errors.log|825UPLOAD|pom.xml|758UPLOAD|pom.xml|758
